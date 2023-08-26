@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="9b.css">
+<script>
+function validate(){
+var pattern=/^[1-4][A-Z][A-Z][0-9][0-9][A-Z][A-Z][0-9][0-9][0-9]$/;
+var usn=document.getElementById("usn");
+if(!usn.value.match(pattern))
+alert("Invalid usn");
+else
+alert("valid usn");
+
+var pattern2=/^[1-8]$/;
+var usn=document.getElementById("sem");
+if(!sem.value.match(pattern2))
+alert("Invalid Sem");
+else
+alert("valid Sem");
+
+
+}
+
+</script>
+</head>
+<body>
+<center><h1>STUDENT DETAILS</h1></center>
+<form>
+<table>
+<tr>
+<td><label for="name">ENTER STUDENT NAME:</label></td>
+<td><input type="text" id="name"></td>
+</tr>
+<tr>
+<td><label for="usn">ENTER STUDENT USN:</label></td>
+<td><input type="text" id="usn"></td>
+</tr>
+<tr>
+<td><label for="sem">ENTER SEMESTER:</label></td>
+<td><input type="text" id="sem"></td>
+</tr>
+</table>
+<input id="sub" type="submit" value="check usn" onclick="validate();">
+<input id="sub" type="submit" value="check sem" onclick="validate();">
+</form>
+
+</body>
+</html>
