@@ -1,0 +1,40 @@
+h1{
+	border:5px solid lightblue;
+	border-radius:10px;
+background: rgb(238,174,188);
+background: radial-gradient(circle, rgba(238,174,188,1) 0%, rgba(148,233,225,1) 100%);
+
+}
+form{
+	margin:0 auto;
+	border:5px solid lightblue;
+	border-radius:20px;
+background: rgb(174,238,203);
+background: radial-gradient(circle, rgba(174,238,203,1) 0%, rgba(148,233,225,1) 100%);
+width:400px;
+padding:20px;
+color:grey;
+}
+#name{
+	border:3px solid lightblue;
+		border-radius:15px;
+}
+#usn{
+	border:3px solid lightblue;
+	border-radius:15px;
+	
+}
+#sem{
+	border:3px solid lightblue;
+	border-radius:15px;
+	
+}
+#sub{
+	border:3px solid lightblue;
+	border-radius:15px;
+	
+}
+body{
+	background: rgb(238,174,188);
+background: radial-gradient(circle, rgba(238,174,188,1) 0%, rgba(148,178,233,1) 100%);
+}
